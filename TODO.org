@@ -10,6 +10,8 @@
 
 * TODO Pop info in small window
 
+* TODO Navigate to import
+
 * DONE Load test python file in test
   CLOSED: [2016-08-18 Thu 16:52]
 
