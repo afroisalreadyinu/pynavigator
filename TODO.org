@@ -1,0 +1,10 @@
+* TODO Navigate to function in same file
+
+* TODO Navigate to var in same file
+
+* TODO Correct way to handle new key bindings
+
+* TODO Navigate to class method in same file
+
+* DONE Load test python file in test
+  CLOSED: [2016-08-18 Thu 16:52]
