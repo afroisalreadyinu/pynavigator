@@ -2,6 +2,14 @@
 
 * TODO Navigate to class method in same file
 
+* TODO Navigate to function in project
+
+* TODO Navigate to function in standard lib
+
+* TODO Show documentation for item
+
+* TODO Pop info in small window
+
 * DONE Load test python file in test
   CLOSED: [2016-08-18 Thu 16:52]
 
