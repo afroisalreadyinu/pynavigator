@@ -1,7 +1,7 @@
 (eval-when-compile (require 'cl))
 
 (defun pyng-identifier-at-point ()
-  (thing-at-point 'word))
+  (symbol-name (symbol-at-point)))
 
 (defun pyng-find-in-buffer (s)
   "Find string s in current buffer and return position."

@@ -19,7 +19,13 @@
     (load-py-contents)
     (goto-char (point-max))
     (search-backward "aMethod")
-    (should (equal (pyng-identifier-at-point) "aMethod"))))
+    (should (equal (pyng-identifier-at-point) "aMethod"))
+    (goto-char (point-max))
+    (search-backward "SOME_DATA")
+    (should (equal (pyng-identifier-at-point) "SOME_DATA"))
+    (goto-char (point-max))
+    (search-backward "blah.oneMethod")
+    (should (equal (pyng-identifier-at-point) "blah.oneMethod"))))
 
 (ert-deftest test-find-definition ()
   (with-temp-buffer
