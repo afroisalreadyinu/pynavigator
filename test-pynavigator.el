@@ -24,5 +24,5 @@
 (ert-deftest test-find-definition ()
   (with-temp-buffer
     (load-py-contents)
-    (should (equal (find-definition "aMethod") 5))
-    (should (equal (find-definition "SOME_DATA") 3))))
+    (should (equal (pyng-find-definition "aMethod") 5))
+    (should (equal (pyng-find-definition "SOME_DATA") 3))))

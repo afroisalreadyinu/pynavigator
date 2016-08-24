@@ -1,8 +1,8 @@
+* TODO Navigate to function in project
+
 * TODO Correct way to handle new key bindings
 
 * TODO Navigate to class method in same file
-
-* TODO Navigate to function in project
 
 * TODO Navigate to function in standard lib
 
