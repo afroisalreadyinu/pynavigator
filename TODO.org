@@ -1,3 +1,5 @@
+* TODO Go through python mode functions to see what's useful (in python.el.gz)
+
 * TODO Navigate to function in project
 
 * TODO Correct way to handle new key bindings
